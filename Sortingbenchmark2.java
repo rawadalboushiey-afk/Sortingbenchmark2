@@ -34,17 +34,17 @@ public class Sortingbenchmark2 {
         int n = 100000;
         Random rand = new Random();
 
-        // 1. السيناريو الأول: بيانات عشوائية
+      
         int[] randomData = new int[n];
         for (int i = 0; i < n; i++) {
             randomData[i] = rand.nextInt(1000000);
         }
 
-        // 2. السيناريو الثاني: بيانات مرتبة تماماً
+        
         int[] sortedData = randomData.clone();
         Arrays.sort(sortedData);
 
-        // هنا حصرنا السيناريوات في اثنين فقط
+        
         String[] scenarios = {"Random", "Fully Sorted"};
         int[][] datasets = {randomData, sortedData};
 
