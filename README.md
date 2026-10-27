@@ -10,7 +10,7 @@
 
 | Algorithm | Scenario | Execution Time ($ns$) |
 | :--- | :--- | :---: |
-| **Quick Sort** | **Random** | 23295899 |
+| **Quick Sort** | **Random** | 9784000 |
 | **Quick Sort** | **Fully Sorted** | Overflow |
 
 ---
